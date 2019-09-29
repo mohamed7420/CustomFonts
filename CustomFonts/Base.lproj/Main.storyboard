@@ -1,24 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lalezar-Regular.ttf">
+            <string>Lalezar-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomFonts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS developers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBZ-Dk-t0d">
+                                <rect key="frame" x="20" y="64" width="374" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="Iw2-Qu-lSV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lalezar-Regular" family="Lalezar" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Android developers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJq-I5-Fzk">
+                                <rect key="frame" x="20" y="161" width="374" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="8qi-ba-Zfr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lalezar-Regular" family="Lalezar" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Machine learning" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubd-8m-0ic">
+                                <rect key="frame" x="20" y="258" width="374" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="4DG-EL-FrI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lalezar-Regular" family="Lalezar" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artificial intellegence" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9h-nL-D7d">
+                                <rect key="frame" x="20" y="373" width="374" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="e8T-2E-vZf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lalezar-Regular" family="Lalezar" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.7953497423" blue="0.3941583306" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ubd-8m-0ic" firstAttribute="leading" secondItem="kJq-I5-Fzk" secondAttribute="leading" id="1gR-Wa-F76"/>
+                            <constraint firstItem="ubd-8m-0ic" firstAttribute="top" secondItem="kJq-I5-Fzk" secondAttribute="bottom" constant="8" id="2VG-dv-3qk"/>
+                            <constraint firstItem="uBZ-Dk-t0d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ayg-fo-GKI"/>
+                            <constraint firstItem="uBZ-Dk-t0d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="DBn-R7-WeH"/>
+                            <constraint firstItem="kJq-I5-Fzk" firstAttribute="leading" secondItem="uBZ-Dk-t0d" secondAttribute="leading" id="DV9-QL-qsr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uBZ-Dk-t0d" secondAttribute="trailing" constant="20" id="DYY-bE-A2u"/>
+                            <constraint firstItem="kJq-I5-Fzk" firstAttribute="trailing" secondItem="uBZ-Dk-t0d" secondAttribute="trailing" id="KbP-KA-wor"/>
+                            <constraint firstItem="n9h-nL-D7d" firstAttribute="trailing" secondItem="ubd-8m-0ic" secondAttribute="trailing" id="Mzl-DW-r55"/>
+                            <constraint firstItem="ubd-8m-0ic" firstAttribute="trailing" secondItem="kJq-I5-Fzk" secondAttribute="trailing" id="Tf4-p0-GU6"/>
+                            <constraint firstItem="kJq-I5-Fzk" firstAttribute="top" secondItem="uBZ-Dk-t0d" secondAttribute="bottom" constant="8" id="YxN-am-f5K"/>
+                            <constraint firstItem="n9h-nL-D7d" firstAttribute="leading" secondItem="ubd-8m-0ic" secondAttribute="leading" id="ZAj-Lx-Iwo"/>
+                            <constraint firstItem="n9h-nL-D7d" firstAttribute="top" secondItem="ubd-8m-0ic" secondAttribute="bottom" constant="26" id="xIW-lD-xIm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
         </scene>
     </scenes>
 </document>

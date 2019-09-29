@@ -12,6 +12,7 @@
 		BA265BB723413105007DE2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA265BB523413105007DE2FA /* Main.storyboard */; };
 		BA265BB923413106007DE2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA265BB823413106007DE2FA /* Assets.xcassets */; };
 		BA265BBC23413106007DE2FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA265BBA23413106007DE2FA /* LaunchScreen.storyboard */; };
+		BA265BD423413E74007DE2FA /* Lalezar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA265BD323413E74007DE2FA /* Lalezar-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BA265BB823413106007DE2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA265BBB23413106007DE2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA265BBD23413106007DE2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA265BD323413E74007DE2FA /* Lalezar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lalezar-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				BA265BB823413106007DE2FA /* Assets.xcassets */,
 				BA265BBA23413106007DE2FA /* LaunchScreen.storyboard */,
 				BA265BBD23413106007DE2FA /* Info.plist */,
+				BA265BD22341362E007DE2FA /* Custom */,
 			);
 			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		BA265BD22341362E007DE2FA /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BA265BD323413E74007DE2FA /* Lalezar-Regular.ttf */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA265BBC23413106007DE2FA /* LaunchScreen.storyboard in Resources */,
+				BA265BD423413E74007DE2FA /* Lalezar-Regular.ttf in Resources */,
 				BA265BB923413106007DE2FA /* Assets.xcassets in Resources */,
 				BA265BB723413105007DE2FA /* Main.storyboard in Resources */,
 			);
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S53RG6Q4M;
 				INFOPLIST_FILE = CustomFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S53RG6Q4M;
 				INFOPLIST_FILE = CustomFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
